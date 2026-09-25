@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip>      //put_time()
+#include <iomanip>      //put_time(),注意这个函数只能参与流IO
 #include <ctime>
 //获取时间
 void gett1(),gett2();
