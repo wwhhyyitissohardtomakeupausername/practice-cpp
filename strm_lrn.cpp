@@ -26,7 +26,7 @@ using namespace std;
 int main() {
     ofstream outFile("testfile.txt");
     outFile<<"Let's speak English.\n";
-    outFile.flush();        //强行把缓冲区写进磁盘,colse也有此效果
+    outFile.flush();        //强行把缓冲区写进磁盘,close也有此效果
     
     ifstream inFile("testfile.txt");
     string b;
